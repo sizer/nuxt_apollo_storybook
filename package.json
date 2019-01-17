@@ -21,8 +21,9 @@
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@storybook/vue": "^4.1.6",
+    "babel-loader": "^8.0.5",
     "babel-preset-vue": "^2.0.2",
     "nodemon": "^1.11.0",
-    "babel-loader": "^8.0.5"
+    "vue-loader": "^14.2.1"
   }
 }
