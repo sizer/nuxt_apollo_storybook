@@ -39,6 +39,7 @@ module.exports = {
   ** Nuxt.js modules
   */
   modules: [
+    '@nuxtjs/apollo'
   ],
 
   /*
@@ -49,7 +50,23 @@ module.exports = {
     ** You can extend webpack config here
     */
     extend(config, ctx) {
-      
+
+    }
+  },
+
+  /*
+  ** Environment Args
+  */
+ env: {
+  ghToken: process.env.GITHUB_ACCESS_TOKEN || 'xxxxxxxxxx'
+ },
+
+  /*
+  ** @nuxtjs/apollo
+  */
+  apollo: {
+    clientConfigs: {
+      default: '~/apollo/client-configs/default.js'
     }
   }
 }

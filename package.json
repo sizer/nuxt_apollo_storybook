@@ -11,6 +11,8 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/apollo": "^4.0.0-rc2.3",
+    "apollo-link-http": "^1.5.9",
     "cross-env": "^5.2.0",
     "nuxt": "^2.0.0"
   },

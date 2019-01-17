@@ -1,0 +1,10 @@
+{
+  user(login:"sizer") {
+    repositories(first:10) {
+      nodes {
+        name
+        url
+      }
+    }
+  }
+}
